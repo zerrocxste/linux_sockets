@@ -1,0 +1,5 @@
+/mnt/d/cheat's/sock_example/out/build/WSL-GCC-Debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/cheat's/sock_example/out/build/WSL-GCC-Debug/CMakeFiles/edit_cache.dir
+/mnt/d/cheat's/sock_example/out/build/WSL-GCC-Debug/sock_example/CMakeFiles/rebuild_cache.dir
+/mnt/d/cheat's/sock_example/out/build/WSL-GCC-Debug/sock_example/CMakeFiles/edit_cache.dir
+/mnt/d/cheat's/sock_example/out/build/WSL-GCC-Debug/sock_example/CMakeFiles/sock_example.dir

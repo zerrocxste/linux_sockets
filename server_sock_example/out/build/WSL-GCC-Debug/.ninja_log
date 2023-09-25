@@ -1,0 +1,22 @@
+# ninja log v5
+939	1297	1695667884660737100	sock_example/sock_example	95b2a9da504c7318
+15	561	1695650776138390000	build.ninja	a8681671ca1ed2ca
+17	926	1695667884282970300	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+17	915	1695667912844852100	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+928	1291	1695667913228062800	sock_example/sock_example	95b2a9da504c7318
+10	792	1695668644792041300	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+803	1078	1695668645081497500	sock_example/sock_example	95b2a9da504c7318
+11	811	1695668679402469000	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+823	1130	1695668679724953100	sock_example/sock_example	95b2a9da504c7318
+15	876	1695668937007366200	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+888	1230	1695668937367196800	sock_example/sock_example	95b2a9da504c7318
+10	862	1695669160512556300	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+872	1197	1695669160851996800	sock_example/sock_example	95b2a9da504c7318
+15	993	1695669386655765000	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+1005	1350	1695669387019763600	sock_example/sock_example	95b2a9da504c7318
+14	1002	1695670164378382400	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+1034	1368	1695670164751633100	sock_example/sock_example	95b2a9da504c7318
+23	1085	1695670284180501800	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+25	1008	1695670365703945400	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+15	881	1695670393729486100	sock_example/CMakeFiles/sock_example.dir/sock_example.cpp.o	106cf2f387f88259
+892	1223	1695670394078350300	sock_example/sock_example	95b2a9da504c7318
