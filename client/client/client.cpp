@@ -23,7 +23,7 @@ public:
 	to_string(const type* s, args&&... arg) { sprintf(this->buf, s, arg...); }
 
 	inline auto get() { return this->buf; }
-	inline operator type() { return this->get(); }
+	inline operator type*() { return this->get(); }
 };
 
 template <std::size_t size>
