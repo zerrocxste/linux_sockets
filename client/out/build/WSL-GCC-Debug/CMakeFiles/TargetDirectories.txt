@@ -1,5 +1,0 @@
-/mnt/d/cheat's/client/out/build/WSL-GCC-Debug/CMakeFiles/rebuild_cache.dir
-/mnt/d/cheat's/client/out/build/WSL-GCC-Debug/CMakeFiles/edit_cache.dir
-/mnt/d/cheat's/client/out/build/WSL-GCC-Debug/client/CMakeFiles/rebuild_cache.dir
-/mnt/d/cheat's/client/out/build/WSL-GCC-Debug/client/CMakeFiles/edit_cache.dir
-/mnt/d/cheat's/client/out/build/WSL-GCC-Debug/client/CMakeFiles/client.dir
