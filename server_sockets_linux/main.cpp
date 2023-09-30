@@ -69,12 +69,12 @@ using to_ch_string = to_string<char, size>;
 void sleep_ms(std::uint64_t ms)
 {
 	auto tm = std::chrono::system_clock::now();
-    while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - tm).count() < ms);
+	while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - tm).count() < ms);
 }
 
 int main(int argc, char** argv)
 {
-    std::printf("%s\n", argv[0]);
+	std::printf("%s\n", argv[0]);
 
 	auto port = 14880;
 
@@ -95,8 +95,8 @@ int main(int argc, char** argv)
 	}
 
 	int sock_listen_fd = socket(AF_INET, SOCK_STREAM, 0);
-    const int val = 1;
-    setsockopt(sock_listen_fd, SOL_SOCKET, SO_REUSEADDR, &val, sizeof(val));
+	const int val = 1;
+	setsockopt(sock_listen_fd, SOL_SOCKET, SO_REUSEADDR, &val, sizeof(val));
 	
 	sockaddr_in sockaddrin;
 	sockaddrin.sin_port = htons(port);
@@ -283,5 +283,5 @@ int main(int argc, char** argv)
 		}
 	}
 
-    return 0;
+	return 0;
 }

@@ -69,7 +69,7 @@ using to_ch_string = to_string<char, size>;
 void sleep_ms(std::uint64_t ms)
 {
 	auto tm = std::chrono::system_clock::now();
-    while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - tm).count() < ms);
+	while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - tm).count() < ms);
 }
 
 int main(int argc, char** argv)
