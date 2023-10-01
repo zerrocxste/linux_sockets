@@ -93,10 +93,6 @@ int main(int argc, char** argv)
 		std::printf("socket return %d", sock);
 		return 1;
 	}
-
-	int sock_listen_fd = socket(AF_INET, SOCK_STREAM, 0);
-	const int val = 1;
-	setsockopt(sock_listen_fd, SOL_SOCKET, SO_REUSEADDR, &val, sizeof(val));
 	
 	sockaddr_in sockaddrin;
 	sockaddrin.sin_port = htons(port);
