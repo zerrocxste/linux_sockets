@@ -8,30 +8,6 @@
 #include <string>
 #include <chrono>
 
-#include <liburing.h>
-
-auto remove_file(const char* filename)
-{
-	std::remove(filename);
-}
-
-class write_fs
-{
-	std::fstream fs;
-public:
-	write_fs(const char* filename, std::ios_base::openmode mode)
-	{
-		fs = std::fstream(filename, mode);
-		fs.seekp(0, std::ios::beg);
-	}
-
-	write_fs& write_string(const char* string, std::size_t str_length = 0)
-	{
-		this->fs.write(string, str_length == 0 ? strlen(string) : str_length);
-		return *this;
-	}
-};
-
 template <class chrono_time_type>
 auto ex_sleep(std::uint64_t time)
 {
