@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zrrcxste/projects/helloworld/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/server_uring_tcp.dir/main.cpp.o -c /home/zrrcxste/projects/helloworld/main.cpp",
+  "file": "/home/zrrcxste/projects/helloworld/main.cpp"
+}
+]
