@@ -98,7 +98,7 @@ public:
 
 int main(int argc, char** argv)
 {
-    std::printf("%s\n", argv[0]);
+	std::printf("%s\n", argv[0]);
 
 	auto port = 1337;
 
@@ -298,5 +298,5 @@ int main(int argc, char** argv)
 		}
 	}
 
-    return 0;
+	return 0;
 }
